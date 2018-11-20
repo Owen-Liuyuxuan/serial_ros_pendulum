@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="try_serial" type="try_serial_node" name = "try_serial_node"/>
+    <node pkg="inverted_pendulum" type="pendulum_node" name = "pendulum_node"/>
+    <node pkg="visualization" type="visualization.py" name = "visualization"/>
+</launch>
