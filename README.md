@@ -3,8 +3,11 @@ I am too boring to start working on this comprehensive mini-project. It include 
 
 ## 1. Introduction
 This is a microproject implement something interesting but "useless". I am actually first moltivated during my learning of the connecting microprocessor with ROS through serial ports. The task can be decomposed in three parts:
+
     1. Simulate a controllable inverted pendulum in robot operating system (ROS).
+    
     2. Develop and verify the algorithm to balance the pendulum in Matlab.
+    
     3. Program a microprocessor (STM32F407) which receives the state of the pendulum from ROS, calculates and publishes the control signal to ROS. The pendulum simulated in ROS should be balanced by the microprocessor.
     
 The project is actually developed on three computing machines., i.e. two computers installed with Linux and Windows repectively and a microprocessor. This is a comprehensive project to test the ability to tackle with multiple platorms. It is not that user-friendly but should be a good reference source when we encounter problems in ROS, control theory and serial communication in the future.
